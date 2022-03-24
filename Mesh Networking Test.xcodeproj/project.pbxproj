@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547CF36727EC466C00C766C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CF36627EC466C00C766C6 /* AppDelegate.swift */; };
+		547CF36B27EC466C00C766C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CF36A27EC466C00C766C6 /* ViewController.swift */; };
+		547CF36E27EC466C00C766C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547CF36C27EC466C00C766C6 /* Main.storyboard */; };
+		547CF37027EC466C00C766C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547CF36F27EC466C00C766C6 /* Assets.xcassets */; };
+		547CF37327EC466C00C766C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547CF37127EC466C00C766C6 /* LaunchScreen.storyboard */; };
+		547CF37E27EC466C00C766C6 /* Mesh_Networking_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CF37D27EC466C00C766C6 /* Mesh_Networking_TestTests.swift */; };
+		547CF38827EC466C00C766C6 /* Mesh_Networking_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CF38727EC466C00C766C6 /* Mesh_Networking_TestUITests.swift */; };
+		547CF38A27EC466C00C766C6 /* Mesh_Networking_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CF38927EC466C00C766C6 /* Mesh_Networking_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547CF37A27EC466C00C766C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547CF35B27EC466B00C766C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547CF36227EC466C00C766C6;
+			remoteInfo = "Mesh Networking Test";
+		};
+		547CF38427EC466C00C766C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547CF35B27EC466B00C766C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547CF36227EC466C00C766C6;
+			remoteInfo = "Mesh Networking Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547CF36327EC466C00C766C6 /* Mesh Networking Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mesh Networking Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547CF36627EC466C00C766C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547CF36A27EC466C00C766C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		547CF36D27EC466C00C766C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547CF36F27EC466C00C766C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547CF37227EC466C00C766C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547CF37427EC466C00C766C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547CF37927EC466C00C766C6 /* Mesh Networking TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mesh Networking TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547CF37D27EC466C00C766C6 /* Mesh_Networking_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh_Networking_TestTests.swift; sourceTree = "<group>"; };
+		547CF38327EC466C00C766C6 /* Mesh Networking TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mesh Networking TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547CF38727EC466C00C766C6 /* Mesh_Networking_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh_Networking_TestUITests.swift; sourceTree = "<group>"; };
+		547CF38927EC466C00C766C6 /* Mesh_Networking_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh_Networking_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547CF36027EC466C00C766C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547CF37627EC466C00C766C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547CF38027EC466C00C766C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547CF35A27EC466B00C766C6 = {
+			isa = PBXGroup;
+			children = (
+				547CF36527EC466C00C766C6 /* Mesh Networking Test */,
+				547CF37C27EC466C00C766C6 /* Mesh Networking TestTests */,
+				547CF38627EC466C00C766C6 /* Mesh Networking TestUITests */,
+				547CF36427EC466C00C766C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547CF36427EC466C00C766C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547CF36327EC466C00C766C6 /* Mesh Networking Test.app */,
+				547CF37927EC466C00C766C6 /* Mesh Networking TestTests.xctest */,
+				547CF38327EC466C00C766C6 /* Mesh Networking TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547CF36527EC466C00C766C6 /* Mesh Networking Test */ = {
+			isa = PBXGroup;
+			children = (
+				547CF36627EC466C00C766C6 /* AppDelegate.swift */,
+				547CF36A27EC466C00C766C6 /* ViewController.swift */,
+				547CF36C27EC466C00C766C6 /* Main.storyboard */,
+				547CF36F27EC466C00C766C6 /* Assets.xcassets */,
+				547CF37127EC466C00C766C6 /* LaunchScreen.storyboard */,
+				547CF37427EC466C00C766C6 /* Info.plist */,
+			);
+			path = "Mesh Networking Test";
+			sourceTree = "<group>";
+		};
+		547CF37C27EC466C00C766C6 /* Mesh Networking TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				547CF37D27EC466C00C766C6 /* Mesh_Networking_TestTests.swift */,
+			);
+			path = "Mesh Networking TestTests";
+			sourceTree = "<group>";
+		};
+		547CF38627EC466C00C766C6 /* Mesh Networking TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				547CF38727EC466C00C766C6 /* Mesh_Networking_TestUITests.swift */,
+				547CF38927EC466C00C766C6 /* Mesh_Networking_TestUITestsLaunchTests.swift */,
+			);
+			path = "Mesh Networking TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547CF36227EC466C00C766C6 /* Mesh Networking Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547CF38D27EC466C00C766C6 /* Build configuration list for PBXNativeTarget "Mesh Networking Test" */;
+			buildPhases = (
+				547CF35F27EC466C00C766C6 /* Sources */,
+				547CF36027EC466C00C766C6 /* Frameworks */,
+				547CF36127EC466C00C766C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mesh Networking Test";
+			productName = "Mesh Networking Test";
+			productReference = 547CF36327EC466C00C766C6 /* Mesh Networking Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547CF37827EC466C00C766C6 /* Mesh Networking TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547CF39027EC466C00C766C6 /* Build configuration list for PBXNativeTarget "Mesh Networking TestTests" */;
+			buildPhases = (
+				547CF37527EC466C00C766C6 /* Sources */,
+				547CF37627EC466C00C766C6 /* Frameworks */,
+				547CF37727EC466C00C766C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547CF37B27EC466C00C766C6 /* PBXTargetDependency */,
+			);
+			name = "Mesh Networking TestTests";
+			productName = "Mesh Networking TestTests";
+			productReference = 547CF37927EC466C00C766C6 /* Mesh Networking TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547CF38227EC466C00C766C6 /* Mesh Networking TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547CF39327EC466C00C766C6 /* Build configuration list for PBXNativeTarget "Mesh Networking TestUITests" */;
+			buildPhases = (
+				547CF37F27EC466C00C766C6 /* Sources */,
+				547CF38027EC466C00C766C6 /* Frameworks */,
+				547CF38127EC466C00C766C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547CF38527EC466C00C766C6 /* PBXTargetDependency */,
+			);
+			name = "Mesh Networking TestUITests";
+			productName = "Mesh Networking TestUITests";
+			productReference = 547CF38327EC466C00C766C6 /* Mesh Networking TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547CF35B27EC466B00C766C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					547CF36227EC466C00C766C6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					547CF37827EC466C00C766C6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 547CF36227EC466C00C766C6;
+					};
+					547CF38227EC466C00C766C6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 547CF36227EC466C00C766C6;
+					};
+				};
+			};
+			buildConfigurationList = 547CF35E27EC466B00C766C6 /* Build configuration list for PBXProject "Mesh Networking Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547CF35A27EC466B00C766C6;
+			productRefGroup = 547CF36427EC466C00C766C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547CF36227EC466C00C766C6 /* Mesh Networking Test */,
+				547CF37827EC466C00C766C6 /* Mesh Networking TestTests */,
+				547CF38227EC466C00C766C6 /* Mesh Networking TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547CF36127EC466C00C766C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547CF37327EC466C00C766C6 /* LaunchScreen.storyboard in Resources */,
+				547CF37027EC466C00C766C6 /* Assets.xcassets in Resources */,
+				547CF36E27EC466C00C766C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547CF37727EC466C00C766C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547CF38127EC466C00C766C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547CF35F27EC466C00C766C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547CF36B27EC466C00C766C6 /* ViewController.swift in Sources */,
+				547CF36727EC466C00C766C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547CF37527EC466C00C766C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547CF37E27EC466C00C766C6 /* Mesh_Networking_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547CF37F27EC466C00C766C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547CF38827EC466C00C766C6 /* Mesh_Networking_TestUITests.swift in Sources */,
+				547CF38A27EC466C00C766C6 /* Mesh_Networking_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547CF37B27EC466C00C766C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547CF36227EC466C00C766C6 /* Mesh Networking Test */;
+			targetProxy = 547CF37A27EC466C00C766C6 /* PBXContainerItemProxy */;
+		};
+		547CF38527EC466C00C766C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547CF36227EC466C00C766C6 /* Mesh Networking Test */;
+			targetProxy = 547CF38427EC466C00C766C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547CF36C27EC466C00C766C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547CF36D27EC466C00C766C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547CF37127EC466C00C766C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547CF37227EC466C00C766C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547CF38B27EC466C00C766C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547CF38C27EC466C00C766C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547CF38E27EC466C00C766C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZHXZ94XN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mesh Networking Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junkfoodsanta.Mesh-Networking-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547CF38F27EC466C00C766C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZHXZ94XN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mesh Networking Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junkfoodsanta.Mesh-Networking-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		547CF39127EC466C00C766C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZHXZ94XN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junkfoodsanta.Mesh-Networking-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mesh Networking Test.app/Mesh Networking Test";
+			};
+			name = Debug;
+		};
+		547CF39227EC466C00C766C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZHXZ94XN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junkfoodsanta.Mesh-Networking-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mesh Networking Test.app/Mesh Networking Test";
+			};
+			name = Release;
+		};
+		547CF39427EC466C00C766C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZHXZ94XN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junkfoodsanta.Mesh-Networking-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mesh Networking Test";
+			};
+			name = Debug;
+		};
+		547CF39527EC466C00C766C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZHXZ94XN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "junkfoodsanta.Mesh-Networking-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mesh Networking Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547CF35E27EC466B00C766C6 /* Build configuration list for PBXProject "Mesh Networking Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547CF38B27EC466C00C766C6 /* Debug */,
+				547CF38C27EC466C00C766C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547CF38D27EC466C00C766C6 /* Build configuration list for PBXNativeTarget "Mesh Networking Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547CF38E27EC466C00C766C6 /* Debug */,
+				547CF38F27EC466C00C766C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547CF39027EC466C00C766C6 /* Build configuration list for PBXNativeTarget "Mesh Networking TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547CF39127EC466C00C766C6 /* Debug */,
+				547CF39227EC466C00C766C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547CF39327EC466C00C766C6 /* Build configuration list for PBXNativeTarget "Mesh Networking TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547CF39427EC466C00C766C6 /* Debug */,
+				547CF39527EC466C00C766C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547CF35B27EC466B00C766C6 /* Project object */;
+}
